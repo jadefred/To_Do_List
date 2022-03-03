@@ -1,0 +1,74 @@
+html {
+  height: 100%;
+}
+
+body {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  background-color: rgba(100, 149, 237, 0.3);
+}
+
+h1 {
+  position: relative;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 3rem;
+}
+
+h1::after {
+  content: "TO DO LIST";
+  position: absolute;
+  top: 3px;
+  right: 0;
+  left: 5px;
+  bottom: 0;
+  color: darkslateblue;
+  z-index: -1;
+}
+
+.sub-title {
+  color: darkslateblue;
+  margin-top: 0;
+}
+
+.container {
+  background-color: cornflowerblue;
+  width: 80%;
+  max-width: 700px;
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  color: white;
+}
+
+#text-input {
+  width: 100%;
+  height: 2rem;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  height: 2rem;
+  font-size: 20px;
+  border: none;
+  background-color: darkslateblue;
+  color: white;
+  border-radius: 5px;
+}
+
+.new-item {
+  margin-top: 0;
+  margin-left: 1rem;
+  font-size: 23px;
+}
